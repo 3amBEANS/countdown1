@@ -1,40 +1,63 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link rel="stylesheet" href="css/style.css">
-  <meta name="description" content="">
-
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content="">
-
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
-
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is Aiden's gift to the world">
+    <meta name="author" content="Aiden Ha">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Data Analytics</title>
 </head>
-
 <body>
-<h1 class = "pScore">Your score: 0</h1>
-<h1 class = "cScore">Computer score: 0</h1>
-<!-- Add your site or application content here -->
-<p>Click on Rock, Paper, Scissors to get started!</p>
-<button id = "rockB">Rock</button>
-<button id = "paperB">Paper</button>
-<button id = "scissorsB">Scissors</button>
-<div class = "results"></div>
+    <header>
+        <h1>Welcome to My Personal Website</h1>
+        <h2>"The only way to do great work is to love what you do."</h2>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<script type="text/javascript" src="rockPaperScissors.js"></script>
+    <main class="container">
+        <section class="intro">
+            <h2>Discover My Journey in Tech</h2>
+            <p>Aiden Ha is a Computer Science student at the University of Virginia with a strong passion for software development, web applications, and machine learning. With experience in Django, React, and AWS, Aiden has worked on projects ranging from analytics dashboards to event-based calendar apps.</p>
+            <img src="https://media.cnn.com/api/v1/images/stellar/prod/230130084732-01-biking-cities-top-copenhagen.jpg?c=original" width="800" height="200" alt="City Bicycle Scene">
+        </section>
+
+        <section class="grid">
+            <div class="grid-item">
+                <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg" width="300" height="200" alt="Project Showcase">
+                <h3><a href="projects.html">Exciting Projects</a></h3>
+                <p>Explore various web applications and machine learning models that showcase my technical skills.</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://cdn.get.tech/blog/wp-content/uploads/2018/10/content-curation.jpg" width="300" height="200" alt="Tech Blog">
+                <h3><a href="about.html">Tech Blog</a></h3>
+                <p>Read my thoughts on software engineering, new technologies, and personal growth in the field.</p>
+            </div>
+            <div class="grid-item">
+                <img src="https://media.istockphoto.com/id/935659716/photo/close-up-of-handshake-in-the-office.jpg?s=612x612&w=0&k=20&c=4iQR9nZG2sWAawCfLNUsyedHZLwL0UaS_VWINBUG0_k=" width="300" height="200" alt="Collaboration">
+                <h3><a href="contact.html">Let's Connect</a></h3>
+                <p>Interested in collaboration? Feel free to reach out and discuss potential projects.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>    
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <small>&copy; 2025 Aiden Ha. All rights reserved.</small>
+    </footer>
 </body>
-
 </html>
